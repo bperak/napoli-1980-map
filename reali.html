@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e15d3f65e8a745c567d78b70253b07cb {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e15d3f65e8a745c567d78b70253b07cb" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e15d3f65e8a745c567d78b70253b07cb = L.map(
+                "map_e15d3f65e8a745c567d78b70253b07cb",
+                {
+                    center: [40.8518, 14.258],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d1a13fee9cc60a65e7689b4e510d85be = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u00a9 OpenStreetMap contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_d1a13fee9cc60a65e7689b4e510d85be.addTo(map_e15d3f65e8a745c567d78b70253b07cb);
+        
+    
+            var marker_5b001848f7b518f673f3bf8d24c9d4e4 = L.marker(
+                [40.845277687406096, 14.226531817611761],
+                {
+}
+            ).addTo(map_e15d3f65e8a745c567d78b70253b07cb);
+        
+    
+        var popup_051380b956f66b66e3ee0247e48261ff = L.popup({
+  "maxWidth": 330,
+});
+
+        
+            
+                var html_dde14498ca67a189844fb2957b87b228 = $(`<div id="html_dde14498ca67a189844fb2957b87b228" style="width: 100.0%; height: 100.0%;"><b>Trilogy</b><br>club · Vomero<br><i>il Trilogy sulla collina del Vomero (dove troviamo in consolle Gigi D'Aria, il primo dj alternativo della scena)</i><br><small>Capasso, Ten Cities — estratto Rolling Stone (1980s)</small></div>`)[0];
+                popup_051380b956f66b66e3ee0247e48261ff.setContent(html_dde14498ca67a189844fb2957b87b228);
+            
+        
+
+        marker_5b001848f7b518f673f3bf8d24c9d4e4.bindPopup(popup_051380b956f66b66e3ee0247e48261ff)
+        ;
+
+        
+    
+    
+            marker_5b001848f7b518f673f3bf8d24c9d4e4.bindTooltip(
+                `<div>
+                     Trilogy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6467d18ab68989f8dbfa79122675435b = L.marker(
+                [40.85013745697645, 14.253089734947748],
+                {
+}
+            ).addTo(map_e15d3f65e8a745c567d78b70253b07cb);
+        
+    
+        var popup_8da841af9e1a1f1c4f9a2be06bba12b3 = L.popup({
+  "maxWidth": 330,
+});
+
+        
+            
+                var html_6eafc85d759c2de01d8adbd430bb8e93 = $(`<div id="html_6eafc85d759c2de01d8adbd430bb8e93" style="width: 100.0%; height: 100.0%;"><b>Pulsar</b><br>club · via Costantinopoli<br><i>il Pulsar di via Costantinopoli</i><br><small>Capasso, Ten Cities — estratto Rolling Stone (1980s)</small></div>`)[0];
+                popup_8da841af9e1a1f1c4f9a2be06bba12b3.setContent(html_6eafc85d759c2de01d8adbd430bb8e93);
+            
+        
+
+        marker_6467d18ab68989f8dbfa79122675435b.bindPopup(popup_8da841af9e1a1f1c4f9a2be06bba12b3)
+        ;
+
+        
+    
+    
+            marker_6467d18ab68989f8dbfa79122675435b.bindTooltip(
+                `<div>
+                     Pulsar
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1502b7147f4ba9ab8439526ca081015c = L.marker(
+                [40.83482413708756, 14.229791309948236],
+                {
+}
+            ).addTo(map_e15d3f65e8a745c567d78b70253b07cb);
+        
+    
+        var popup_2a4fce2d030df768ecac4c7a5b678bb7 = L.popup({
+  "maxWidth": 330,
+});
+
+        
+            
+                var html_ac7d91fdb6bf1cdb5777ae058677172f = $(`<div id="html_ac7d91fdb6bf1cdb5777ae058677172f" style="width: 100.0%; height: 100.0%;"><b>Caffè della luna</b><br>club · Chiaia<br><i>il Caffè della luna nel quartiere di Chiaia</i><br><small>Capasso, Ten Cities — estratto Rolling Stone (1980s)</small></div>`)[0];
+                popup_2a4fce2d030df768ecac4c7a5b678bb7.setContent(html_ac7d91fdb6bf1cdb5777ae058677172f);
+            
+        
+
+        marker_1502b7147f4ba9ab8439526ca081015c.bindPopup(popup_2a4fce2d030df768ecac4c7a5b678bb7)
+        ;
+
+        
+    
+    
+            marker_1502b7147f4ba9ab8439526ca081015c.bindTooltip(
+                `<div>
+                     Caffè della luna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_818577afff3116324f7179464343e7be = L.marker(
+                [40.85655185850837, 14.252176916901185],
+                {
+}
+            ).addTo(map_e15d3f65e8a745c567d78b70253b07cb);
+        
+    
+        var popup_32734df1df925b04c8094d9acb29633c = L.popup({
+  "maxWidth": 330,
+});
+
+        
+            
+                var html_b3017c4c7e17a9cde6f7d3a2edd240eb = $(`<div id="html_b3017c4c7e17a9cde6f7d3a2edd240eb" style="width: 100.0%; height: 100.0%;"><b>Diamond Dogs</b><br>club · Cavone San Gennaro<br><i>l'11 giugno 1984 aprono il Diamond Dogs</i><br><small>Capasso, Ten Cities — estratto Rolling Stone (1980s)</small></div>`)[0];
+                popup_32734df1df925b04c8094d9acb29633c.setContent(html_b3017c4c7e17a9cde6f7d3a2edd240eb);
+            
+        
+
+        marker_818577afff3116324f7179464343e7be.bindPopup(popup_32734df1df925b04c8094d9acb29633c)
+        ;
+
+        
+    
+    
+            marker_818577afff3116324f7179464343e7be.bindTooltip(
+                `<div>
+                     Diamond Dogs
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d5d338207027eca82277a8a18c9692a1 = L.marker(
+                [40.848391606779565, 14.256267147957043],
+                {
+}
+            ).addTo(map_e15d3f65e8a745c567d78b70253b07cb);
+        
+    
+        var popup_a03b79a0fce07c84791044bfc57d7fc7 = L.popup({
+  "maxWidth": 330,
+});
+
+        
+            
+                var html_caae270d1f134771478be9fac7088cd2 = $(`<div id="html_caae270d1f134771478be9fac7088cd2" style="width: 100.0%; height: 100.0%;"><b>Piazza del Gesù</b><br>ritrovo · Piazza del Gesù<br><i>i primi ritrovi sono i muretti di Piazza del Gesù, Piazza dei Martiri e De Marco</i><br><small>L'Indiependente — Spacca Napoli #3 (punk, 1979–1983)</small></div>`)[0];
+                popup_a03b79a0fce07c84791044bfc57d7fc7.setContent(html_caae270d1f134771478be9fac7088cd2);
+            
+        
+
+        marker_d5d338207027eca82277a8a18c9692a1.bindPopup(popup_a03b79a0fce07c84791044bfc57d7fc7)
+        ;
+
+        
+    
+    
+            marker_d5d338207027eca82277a8a18c9692a1.bindTooltip(
+                `<div>
+                     Piazza del Gesù
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bc7d726a787223f290237d39bd595c6d = L.marker(
+                [40.83567336033504, 14.24278781616928],
+                {
+}
+            ).addTo(map_e15d3f65e8a745c567d78b70253b07cb);
+        
+    
+        var popup_a7e79587851f91eac608497f79c562b1 = L.popup({
+  "maxWidth": 330,
+});
+
+        
+            
+                var html_abaa6f8c586c2c68dfa77a6c6a3a86ac = $(`<div id="html_abaa6f8c586c2c68dfa77a6c6a3a86ac" style="width: 100.0%; height: 100.0%;"><b>Piazza dei Martiri</b><br>ritrovo · Piazza dei Martiri<br><i>i primi ritrovi sono i muretti di Piazza del Gesù, Piazza dei Martiri e De Marco</i><br><small>L'Indiependente — Spacca Napoli #3 (punk, 1979–1983)</small></div>`)[0];
+                popup_a7e79587851f91eac608497f79c562b1.setContent(html_abaa6f8c586c2c68dfa77a6c6a3a86ac);
+            
+        
+
+        marker_bc7d726a787223f290237d39bd595c6d.bindPopup(popup_a7e79587851f91eac608497f79c562b1)
+        ;
+
+        
+    
+    
+            marker_bc7d726a787223f290237d39bd595c6d.bindTooltip(
+                `<div>
+                     Piazza dei Martiri
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_713f53c4e96ea3b063d3149fbdcf1eba = L.marker(
+                [40.84319533105933, 14.224103396695698],
+                {
+}
+            ).addTo(map_e15d3f65e8a745c567d78b70253b07cb);
+        
+    
+        var popup_da7a62866c16265bf1b95a0b6580141c = L.popup({
+  "maxWidth": 330,
+});
+
+        
+            
+                var html_88a49069f9ae8b26b65d89ff25b15b09 = $(`<div id="html_88a49069f9ae8b26b65d89ff25b15b09" style="width: 100.0%; height: 100.0%;"><b>De Marco</b><br>negozio_dischi · Vomero<br><i>De Marco, un negozio di dischi, al Vomero</i><br><small>L'Indiependente — Spacca Napoli #3 (punk, 1979–1983)</small></div>`)[0];
+                popup_da7a62866c16265bf1b95a0b6580141c.setContent(html_88a49069f9ae8b26b65d89ff25b15b09);
+            
+        
+
+        marker_713f53c4e96ea3b063d3149fbdcf1eba.bindPopup(popup_da7a62866c16265bf1b95a0b6580141c)
+        ;
+
+        
+    
+    
+            marker_713f53c4e96ea3b063d3149fbdcf1eba.bindTooltip(
+                `<div>
+                     De Marco
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a076be7cb8c2fbe7d674968037358826 = L.marker(
+                [40.84280682343752, 14.227349180143337],
+                {
+}
+            ).addTo(map_e15d3f65e8a745c567d78b70253b07cb);
+        
+    
+        var popup_203a5ae2d0c8ca26ab243713b35d69c3 = L.popup({
+  "maxWidth": 330,
+});
+
+        
+            
+                var html_2ab1f185fba15eb0ade83db6559420be = $(`<div id="html_2ab1f185fba15eb0ade83db6559420be" style="width: 100.0%; height: 100.0%;"><b>Cantina Sica</b><br>ritrovo · Vomero<br><i>un altro ritrovo, che seppur piccolo è molto frequentato e si chiama Cantina Sica</i><br><small>L'Indiependente — Spacca Napoli #3 (punk, 1979–1983)</small></div>`)[0];
+                popup_203a5ae2d0c8ca26ab243713b35d69c3.setContent(html_2ab1f185fba15eb0ade83db6559420be);
+            
+        
+
+        marker_a076be7cb8c2fbe7d674968037358826.bindPopup(popup_203a5ae2d0c8ca26ab243713b35d69c3)
+        ;
+
+        
+    
+    
+            marker_a076be7cb8c2fbe7d674968037358826.bindTooltip(
+                `<div>
+                     Cantina Sica
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c3264189dfce7f91188a7a4e9a93ed9a = L.marker(
+                [40.85135202943126, 14.25399324772558],
+                {
+}
+            ).addTo(map_e15d3f65e8a745c567d78b70253b07cb);
+        
+    
+        var popup_3baf4fa357a6d793f5209fa5ca998532 = L.popup({
+  "maxWidth": 330,
+});
+
+        
+            
+                var html_e1f52830571eb33904d894443a68ed1d = $(`<div id="html_e1f52830571eb33904d894443a68ed1d" style="width: 100.0%; height: 100.0%;"><b>ZX</b><br>club · Via Atri e il pubblico di ind<br><i>La venue prescelta è lo ZX di Via Atri e il pubblico di indemoniati arriva perlopiù dalla fauna di De Marco Dischi e delle fanzine come Megawave” Caludio Biazzetti A creare e curare la fanzine Megawav</i><br><small>L'Indiependente — Spacca Napoli #3 (punk, 1979–1983)</small></div>`)[0];
+                popup_3baf4fa357a6d793f5209fa5ca998532.setContent(html_e1f52830571eb33904d894443a68ed1d);
+            
+        
+
+        marker_c3264189dfce7f91188a7a4e9a93ed9a.bindPopup(popup_3baf4fa357a6d793f5209fa5ca998532)
+        ;
+
+        
+    
+    
+            marker_c3264189dfce7f91188a7a4e9a93ed9a.bindTooltip(
+                `<div>
+                     ZX
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
